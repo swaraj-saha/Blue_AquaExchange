@@ -1,0 +1,23 @@
+no, follow this only
+Blue_AquaExchange/
+│── aquaexchange/                # Main package
+│   ├── __init__.py              # Makes it a Python package
+│   ├── buffer.py                
+│   ├── calculate_indices.py     
+│   ├── find_previous_lulc.py    
+│   ├── geojson_maker.py         
+│   ├── merge_geojson.py         
+│   ├── search_stac_images.py    
+│   ├── satellite_processor.py   
+│   ├── combine_outputs.py       # Merges outputs from main_1 & main_2
+│   ├── utils.py                 # Common helper functions
+│
+│── scripts/                      # Execution scripts
+│   ├── main_1.py                 
+│   ├── main_2.py                 
+│   ├── run_pipeline.py           # Runs the whole process
+│
+│── requirements.txt              # Dependencies
+│── README.md                     # Documentation
+│── setup.py                      # Optional, for making an installable package
+│── .gitignore                     # Ignore unnecessary files
