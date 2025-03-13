@@ -12,7 +12,10 @@ setup(
         "pandas",
         "numpy",
         "rasterio",
-        "lxml"  # For XML etree processing
+        "lxml",
+        "fastapi",
+        "azure-storage-blob",
+        "python-dotenv"
     ],
     author="Swaraj Saha",
     description="A package for processing farm pond data using Landsat imagery.",
