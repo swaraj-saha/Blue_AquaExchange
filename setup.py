@@ -26,4 +26,9 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.8",
+    scripts = [
+        "scripts/main_1.py",
+        "scripts/main_2.py",
+        "scripts/run_pipeline.py",
+    ],
 )
